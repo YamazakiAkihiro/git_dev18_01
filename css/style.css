@@ -1,0 +1,205 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.header_nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.header_nav li{
+    margin-left: 40px;
+}
+
+.mainvisual{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainvisual_title{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.mainvisual_subtitle{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about_title{
+    font-size: 24px;
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about_text{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgBox{
+display: flex;
+margin-bottom: 50px;
+}
+
+.imgBox p{
+    width: 25%;
+}
+
+.imgBox p img{
+    width: 100%;
+}
+
+.COURSE_title{
+    font-size: 24px;
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.COURSE_text{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+
+.course_sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.course_subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.course_subtext{
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.news_title{
+    font-size: 24px;
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news_text{font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+ul.newslist{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    font-weight: 200;
+}
+
+.more_title{
+    font-size: 24px;
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.more_subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.more_text{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact_title{
+    font-size: 24px;
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact_text{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formBox{
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.input_title{
+    font-size: 24px;
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background: coral;
+    text-align: center;
+    padding: 26px 0;
+}
+
+.footer_p{
+    font-size: 18px;
+    color: burlywood;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+
+}
