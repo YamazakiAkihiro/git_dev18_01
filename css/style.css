@@ -92,20 +92,20 @@ margin-bottom: 50px;
     grid-template-columns: 1fr 1fr;
     margin-top: 6%;
     margin-bottom: 50px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
 }
 
 .course_subtitle{
     font-size: 18px;
     font-weight: bold;
-    text-align: right;
+    text-align: center;
     margin-bottom: 30px;
 }
 
 .course_subtext{
     font-size: 16px;
-    text-align: right;
+    text-align: center;
     margin-bottom: 20px;
 }
 
